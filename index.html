@@ -1,0 +1,52 @@
+        <!DOCTYPE html>
+        <html lang="pt-en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Calculadora-gm-dev</title>
+            <link rel="stylesheet" href="/css/style.css" />
+        </head>
+        <body>
+            <!-- INTERFACE -->
+            <div class="calculator">
+            <div class="calculator-screen" id="calculator-screen">0</div>
+            <!-- TECLAS- -->
+            <div class="calculator-keys">
+                <button type="button" class="operator" value="+">+</button>
+                <button type="button" class="operator" value="-">−</button>
+                <button type="button" class="operator" value="*">×</button>
+                <button type="button" class="operator" value="/">÷</button>
+                <button type="button" class="delete" value="delete">DEL</button>
+
+                <button type="button" value="7">7</button>
+                <button type="button" value="8">8</button>
+                <button type="button" value="9">9</button>
+
+                <button type="button" value="4">4</button>
+                <button type="button" value="5">5</button>
+                <button type="button" value="6">6</button>
+
+                <button type="button" value="1">1</button>
+                <button type="button" value="2">2</button>
+                <button type="button" value="3">3</button>
+
+                <button type="button" value="0">0</button>
+                <button type="button" class="decimal" value=".">.</button>
+                <button type="button" class="all-clear" value="all-clear">AC</button>
+
+                <button type="button" class="equal-sign operator" value="=">=</button>
+            </div>
+            <!-- END TECLAS -->
+            <!-- NEW HISTORICO -->
+            
+            <div class="calculator-history" id="calculator-history">
+                <h2>Histórico</h2>
+                <ul id="history-list"></ul>
+            </div>
+            <!-- END HISTORICO -->
+            </div>
+    <!-- INTERFACE -->
+            <script src="/js/calc.js"></script>
+            
+        </body>
+        </html>
